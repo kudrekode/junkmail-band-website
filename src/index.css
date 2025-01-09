@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'DejaVu Serif', serif;
+  background: #322f2e;
+  color: #fff;
+}
+
+.header {
+  background: url('src/assets/bandimages/jmbanner2.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: none;
+}
+
+.main-logo {
+  max-width: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-page {
+  background: #322f2e;
+  padding: 2rem;
+}
+
+.main-nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.nav-item {
+  width: 20%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.streaming-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 2rem 0;
+}
+
+.streaming-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: none;
+}
+
+.social-icon::after, .streaming-icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #DE541E;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.social-icon:hover, .streaming-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon:hover::after, .streaming-icon:hover::after {
+  opacity: 1;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #252424;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.bottom-nav a:hover {
+  color: #DE541E;
+  transform: scale(1.1);
+}
+
+.bottom-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #DE541E;
+  transition: width 0.3s ease;
+}
+
+.bottom-nav a:hover::after {
+  width: 100%;
+}
+
+
+.band-image {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.band-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.about-us-page, .contact-page, .signup-page, .gig-page, .merch-page h1 {
+  text-align: center !important;
+}
+
+.about-us-page, .contact-page, .signup-page, .gig-page, .merch-page p {
+  text-align: center !important;
+  padding-right: 200px !important;
+  padding-left: 200px !important;
+  font-size: 18px !important;
+}
+
+.gig-page, .merch-page img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+}
+
+
+
+
+
+
