@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background: url('src/assets/bandimages/jmbanner2.jpg') no-repeat center center;
+  background: url('../public/assets/bandimages/jmbanner2.jpg') no-repeat center center;
   background-size: cover;
   padding: 20px;
   text-align: center;
