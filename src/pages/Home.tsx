@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => (
     <div className="home-page">
+
         <div className="main-nav">
             <Link to="/upcoming-gigs" className="nav-item">
                 <h2>UPCOMING GIGS</h2>
                 <img src="assets/misc/jmnogigs.png" alt="Upcoming Gigs" />
             </Link>
             
-            <a href="https://open.spotify.com/track/2AVAAYsmisVlT7mh0APsA3" className="nav-item">
+            <a href="https://open.spotify.com/track/30t6v12boHF73eEKbFXzk3" className="nav-item">
                 <h2>LATEST SINGLE</h2>
-                <img src="assets/misc/jmhungrycover.png" alt="Latest Single" />
+                <img src="assets/misc/funnyelitescover.jpg" alt="Latest Single" />
             </a>
             
             <Link to="/merch" className="nav-item">
@@ -19,6 +20,7 @@ const Home: React.FC = () => (
                 <img src="assets/misc/jmmerch.png" alt="Merch" />
             </Link>
         </div>
+
         <div className="streaming-links">
             <a href="https://www.youtube.com/channel/UC4TgELnho9M_Nrry9lE7lqg" target="_blank" rel="noreferrer">
                 <img src="assets/link_images/jmtidal.png" alt="Tidal" className="streaming-icon" />

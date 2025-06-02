@@ -44,19 +44,32 @@ body {
   align-items: flex-start;
   gap: 20px;
   margin: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 20%;
   margin: 0 auto;
   text-decoration: none;
   color: white;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: center;
+}
+.nav-item h2 {
+  color: white;
+  align-items: end;
+  min-height: 55px;
 }
 
 .nav-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-top:auto;
 }
 
 .streaming-links {
@@ -151,11 +164,16 @@ body {
   font-size: 18px !important;
 }
 
+.contact-page a {
+  color: white !important;
+}
+
 .gig-page, .merch-page img {
   display: block;
   margin: auto;
   max-width: 200px;
 }
+
 
 
 
