@@ -32,6 +32,7 @@ body {
   object-position: center;
 }
 
+
 .home-page {
   background: #322f2e;
   padding: 2rem;
@@ -70,6 +71,12 @@ body {
   height: auto;
   border-radius: 8px;
   margin-top:auto;
+}
+
+@media (max-width: 700px) {
+  .nav-item h2 {
+    font-size: 1rem;
+  }
 }
 
 .streaming-links {
@@ -121,6 +128,7 @@ body {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
+
 .bottom-nav a:hover {
   color: #DE541E;
   transform: scale(1.1);
@@ -141,6 +149,11 @@ body {
   width: 100%;
 }
 
+@media (max-width: 700px) {
+  .bottom-nav a{
+    font-size: .8rem;
+  }
+}
 
 .band-image {
   text-align: center;
@@ -159,9 +172,8 @@ body {
 
 .about-us-page, .contact-page, .signup-page, .gig-page, .merch-page p {
   text-align: center !important;
-  padding-right: 200px !important;
-  padding-left: 200px !important;
-  font-size: 18px !important;
+  padding: 0 10%;
+  font-size: 18px;
 }
 
 .contact-page a {
