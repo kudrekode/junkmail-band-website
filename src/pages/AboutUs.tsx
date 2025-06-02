@@ -18,7 +18,7 @@ const AboutUs: React.FC = () => (
 
 
             <div className="band-image">
-                <img src="../../public/assets/bandimages/jmband2.jpg" alt="Band"/>
+                <img src="assets/bandimages/jmband2.jpg" alt="Band"/>
             </div>
 
 
